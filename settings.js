@@ -27,22 +27,22 @@ global.premium = ['6285822347348'] //ubah jadi nomor mu, note tanda ' gausah di 
 global.ownernomer = '6285822347348' //ubah jadi nomor mu, note tanda ' gausah di hapus!
 
 //—————「 Set Nama Own & Bot 」—————//
-global.ownername = 'RullMd' //ubah jadi nama mu, note tanda ' gausah di hapus!
+global.ownername = 'ArullOfc' //ubah jadi nama mu, note tanda ' gausah di hapus!
 global.botname = 'ArullBotzMd' //ubah jadi nama bot mu, note tanda ' gausah di hapus!
-global.footer = 'Rull' //ubah jadi nama mu, note tanda ' gausah di hapus!
+global.footer = 'ArullOfc' //ubah jadi nama mu, note tanda ' gausah di hapus!
 
 //—————「 Set Kebutuhan Button & Kontak 」—————//
 //ubah aja kalau ada yang gapunya gsh di hps anggap aja credits :), note tanda ' gausah di hapus!
 global.youtube = 'https://youtube.com/channel/UCtM-pDaaGVRe4BJ7w4qE4Bw'
 global.ig = 'https://instagram.com/sahrulwara_____'
 global.mygc = 'https://chat.whatsapp.com/LDN0EeJfASs0lbUhJsOJu1'
-global.myweb = 'https://s.id/chikabot'
+global.myweb = 'https://instagram.com/sahrulwara_____'
 global.email = 'sahrulwara62@gmail.com'
 global.region = 'indonesia'
 
 //—————「 Set Wm 」—————//
 global.packname = '© ArullBotzMD' //ubah jadi nama bot mu, note tanda ' gausah di hapus!
-global.author = 'Rull' //ubah jadi nama mu, note tanda ' gausah di hapus!
+global.author = 'ArullOfc' //ubah jadi nama mu, note tanda ' gausah di hapus!
 
 //—————「 Set Nama Session 」—————//
 //gausah di apa² in!
@@ -57,7 +57,7 @@ free: 20,
 
 //—————「 Set Image 」—————//
 //terserah mau ubah apa nggak, menurut gua jangan di ubah!
-global.thumb = fs.readFileSync('./image/ayuy.jpg')
+global.thumb = fs.readFileSync('./image/IMG-20220211-WA0001~2.jpg')
 /*global.veloriy = fs.readFileSync('./image/chika.mp4')*/
 
 //—————「 Set Image Welcome 」—————//
@@ -85,7 +85,7 @@ global.mess = {
 success: '_DoneNgab._',
 admin: '_Fitur Khusus Admin Group!_',
 botAdmin: '_Bot Harus Menjadi Admin Terlebih Dahulu!_',
-owner: '_Fitur Khusus Owner Bot_',
+owner: '_Fitur Khusus ArullOfc_',
 group: '_Fitur Digunakan Hanya Untuk Group!_',
 private: '_Fitur Digunakan Hanya Untuk Private Chat!_',
 bot: '_Fitur Khusus Pengguna Nomor Bot_',
