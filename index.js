@@ -959,7 +959,7 @@ case 'halah': case 'hilih': case 'huluh': case 'heleh': case 'holoh':
                 if (!m.isGroup) return reply(mess.group)
                 if (!isBotAdmins) return reply(mess.botAdmin)
                 if (!isAdmins) return reply(mess.admin)
-let teks = `══✪〘 *👥 Tag All* 〙✪══
+let teks = `══✪〘 *👥 Tag All ArullBotzMd* 〙✪══
  
  ➲ *Pesan : ${q ? q : 'kosong'}*\n\n`
                 for (let mem of participants) {
@@ -1283,7 +1283,7 @@ break
                                     id: 'menu'
                                 }
                             }]
-                      let txt = `「 Broadcast Bot 」\n\n${text}`
+                      let txt = `「 Broadcast ArullBotz 」\n\n${text}`
                       chika.send5ButImg(i, txt, ownername, global.thumb, btn)
                     }
                 reply(`Sukses Mengirim Broadcast Ke ${anu.length} Group`)
@@ -1317,7 +1317,7 @@ break
                                     id: 'menu'
                                 }
                             }]
-                      let txt = `「 Broadcast Bot 」\n\n${text}`
+                      let txt = `「 Broadcast ArullBotz 」\n\n${text}`
                       chika.send5ButImg(yoi, txt, ownername, global.thumb, btn)
 		}
 		reply('Sukses Broadcast')
