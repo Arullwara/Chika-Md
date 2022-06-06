@@ -959,7 +959,7 @@ case 'halah': case 'hilih': case 'huluh': case 'heleh': case 'holoh':
                 if (!m.isGroup) return reply(mess.group)
                 if (!isBotAdmins) return reply(mess.botAdmin)
                 if (!isAdmins) return reply(mess.admin)
-let teks = `══✪〘 *👥 Tag All ArullBotzMd* 〙✪══
+let teks = `══✪〘 👥 *Tag All* 〙✪══
  
  ➲ *Pesan : ${q ? q : 'kosong'}*\n\n`
                 for (let mem of participants) {
@@ -1264,12 +1264,12 @@ break
                     await sleep(1500)
                     let btn = [{
                                 urlButton: {
-                                    displayText: 'YouTube Creator',
-                                    url: `${youtube}`
+                                    displayText: 'instagram',
+                                    url: `${instagram}`
                                 }
                             }, {
                                 urlButton: {
-                                    displayText: `Rest Api's`,
+                                    displayText: `Follow instagram`,
                                     url: `${myweb}`
                                 }
                             }, {
@@ -1298,12 +1298,12 @@ break
 		    await sleep(1500)
 		    let btn = [{
                                 urlButton: {
-                                    displayText: 'YouTube Creator',
-                                    url: `${youtube}`
+                                    displayText: 'Follow Instagram',
+                                    url: `${instagram}`
                                 }
                             }, {
                                 urlButton: {
-                                    displayText: `Rest Api's`,
+                                    displayText: `instagram`,
                                     url: `${myweb}`
                                 }
                             }, {
@@ -1776,7 +1776,7 @@ case 'webtonsearch': case 'webtoon':
                     var but = [
 				{
 					"urlButton": {
-						"displayText": `Rest Api's`,
+						"displayText": `Instagram`,
 						"url": `${myweb}`
 						}
 					}
@@ -1801,7 +1801,7 @@ case 'webtonsearch': case 'webtoon':
                     var but = [
 				{
 					"urlButton": {
-						"displayText": `Rest Api's`,
+						"displayText": `Instagram`,
 						"url": `${myweb}`
 						}
 					}
@@ -1825,7 +1825,7 @@ case 'webtonsearch': case 'webtoon':
                     var but = [
 				{
 					"urlButton": {
-						"displayText": `Rest Api's`,
+						"displayText": `Instagram`,
 						"url": `${myweb}`
 						}
 					}
@@ -3088,8 +3088,8 @@ templateButtons: [
 {
 index: 1, 
 urlButton: {
-displayText: 'YouTube Creator', 
-url: `${youtube}`
+displayText: 'Follow Instagram', 
+url: `${instagram}`
 }
 },
 ],
@@ -3106,8 +3106,8 @@ templateButtons: [
 {
 index: 1, 
 urlButton: {
-displayText: 'YouTube Creator', 
-url: `${youtube}`
+displayText: 'Follow Instagram', 
+url: `${instagram}`
 }
 },
 ],
@@ -3118,13 +3118,13 @@ break
 case 'owner': case 'creator': {
 chika.sendContact(m.chat, global.owner, m)
 const templateMessage = {
-text: 'Tuh Kak Owner Ku',footer: `© ${ownername}`,
+text: 'Tuh Kak Owner Ku,Jangan spam ngab+sv no.cewe doank',footer: `© ${ownername}`,
 templateButtons: [
 {
 index: 1, 
 urlButton: {
-displayText: 'YouTube Creator', 
-url: `${youtube}`
+displayText: 'Follow Instagram', 
+url: `${instagram}`
 }
 },
 ],
